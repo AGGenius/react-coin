@@ -1,0 +1,31 @@
+.navigation {
+    width: 80%;
+    height: 50px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: aliceblue;
+    border: 2px solid rgb(223, 231, 238);
+}
+
+.link {
+    width: 10%;
+    min-width: 100px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(246, 250, 253);
+    border-right: 2px solid gray;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+.link:hover {
+    background-color: rgb(250, 247, 243);
+    border-right: 2px solid  rgb(214, 208, 199);;
+}
